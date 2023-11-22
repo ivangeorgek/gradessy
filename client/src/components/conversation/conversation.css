@@ -1,0 +1,18 @@
+.conversation {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.conversation:hover {
+    background: #f5f5f5;
+    margin: 5px;
+    color: #000;
+}
+
+.contactName {
+    font-weight: 500;
+}

@@ -1,0 +1,87 @@
+.register {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(0, 113, 144, 1) 0%, rgba(2, 155, 144, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .registerLogoWrapper {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .registerLogo {
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+  }
+  
+  .registerDesc {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .registerBox {
+    width: 30%;
+    height: 460px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+  }  
+  
+  .registerInput {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 113, 144, 0.8);
+    font-size: 18px;
+    padding-left: 20px;
+    color: #000;
+  }
+  
+  .registerInput:focus {
+    outline: none;
+  }
+  
+  .registerButton {
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(2, 155, 144, 1);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .registerButton:focus {
+    outline: none;
+  }
+  
+  .registerButton:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  .mentorCheckbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 113, 144, 1);
+  }
+  
+  .mentorCheckbox input {
+    margin-right: 0.5rem;
+  }
+  
+  .registerLogin {
+    text-align: center;
+    color: rgba(2, 155, 144, 1);
+  }
+  

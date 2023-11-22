@@ -1,0 +1,78 @@
+.messenger {
+    height: calc(100vh-70px);
+    display: flex;
+}
+
+.chatBox {
+    flex: 7;
+}
+
+.chatBoxWrapper {
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.chatBubbles {
+    height: calc(100% - 60px);
+    overflow-y: scroll;
+}
+
+.chatBubbles::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+.chatBubbles::-webkit-scrollbar-thumb {
+    background-color: #999999;
+    border-radius: 3px;
+}
+
+.chatInput {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.chatInputField {
+    width: 80%;
+    height: 50px;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: teal;
+}
+
+.chatSubmitButton {
+    width: 70px;
+    height: 40px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+}
+
+.chatContactsBar {
+    flex: 3;
+    background: linear-gradient(90deg, rgba(2, 155, 144, 0.9) 0%, rgba(0, 113, 144, 0.9) 100%);
+}
+
+.chatContactsInput {
+    width: 75%;
+    margin: 0 20px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.chatContactsInput:focus {
+    outline: none;
+}
